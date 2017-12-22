@@ -1,0 +1,29 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "simple login app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nidhi rank",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "dotenv": "^4.0.0",
+    "express": "",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
