@@ -42,6 +42,7 @@ router.post('/register', function(req, res) {
       email: email,
       username: username,
       password: password,
+      provider: 'local',
     });
     User.createUser(newUser, function(err, user){
       if (err) throw err;
